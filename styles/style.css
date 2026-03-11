@@ -1,0 +1,59 @@
+
+
+
+
+
+
+/* Shared Style */
+
+.display-flex{
+    display: flex;
+}
+
+.light-dark-gray{
+    color: #707070;
+}
+
+.btn-primary{
+    padding: 21px 16px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Style */
+header{
+    background-color: #FAFAFA;
+}
+.banner{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.banner-title{
+    max-width: 520px;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+    max-width: 470px;
+}
+.banner-button {
+    align-items: center;
+    gap: 20px;
+}
+
+.play-btn{
+    justify-items: center;
+}
+.watch-btn{
+    border: none;
+    color: #707070;
+}
