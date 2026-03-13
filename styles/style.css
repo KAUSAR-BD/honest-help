@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.poppins-regular {
+  font-weight: 400;
+}
+.poppins-medium {
+  font-weight: 500;
+}
+.poppins-semibold {
+  font-weight: 600;
+}
+.poppins-bold {
+  font-weight: 700;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -56,8 +75,9 @@ header {
 .banner-title {
   max-width: 520px;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 18px;
+  margin-top: 120px;
 }
 .banner-description {
   max-width: 470px;
@@ -67,6 +87,7 @@ header {
   align-items: center;
   gap: 20px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .watch-btn {
@@ -80,7 +101,7 @@ header {
   position: relative;
   width: 100%;
   min-height: 600px; /* ensures volunteer fits */
-  margin-top: 50px;
+  margin-top: 110px;
   margin-left: 120px;
 }
 
@@ -259,6 +280,24 @@ header {
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
+}
+/* Footer */
+.footer {
+  background-color: #050017;
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+}
+.footer h1 {
+  font-weight: 400;
+  font-size: 2.15rem;
+  color: #ff5959;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 18px;
+  margin-bottom: 30px;
+  color: #dadada;
 }
 
 /* Responsive Devices */
