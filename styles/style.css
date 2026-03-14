@@ -102,11 +102,10 @@ header {
   width: 100%;
   min-height: 600px; /* ensures volunteer fits */
   margin-top: 110px;
-  margin-left: 120px;
 }
 
 .volunteer-img {
-  max-width: 830px;
+  max-width: 800px;
   max-height: 415px;
   display: block;
   position: relative;
@@ -118,7 +117,7 @@ header {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 490px;
+  max-width: 470px;
   height: auto;
 }
 
@@ -135,7 +134,8 @@ header {
   font-weight: 400;
   font-size: 1.2rem;
   text-align: center;
-  width: 690px;
+  max-width: 690px;
+  width: 90%;
   margin: 0 auto;
   color: #707070;
 }
@@ -302,32 +302,25 @@ header {
 
 /* Responsive Devices */
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
+/* Mobile devices (360px – 480px) */
+@media (max-width: 480px) {
+  .banner-content {
+    flex-direction: column;
+  }
+  .volunteer-img,
+  .volunteer {
+    width: 100%;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
+/* Large phones / small tablets */
+@media (max-width: 768px) {
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
+/* Tablets */
+@media (max-width: 1024px) {
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1320px;
-  }
+/* Small laptops */
+@media (max-width: 1366px) {
 }
