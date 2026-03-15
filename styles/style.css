@@ -70,7 +70,6 @@ header {
 
 .banner-content {
   align-items: center;
-  justify-content: space-between;
 }
 .banner-title {
   max-width: 520px;
@@ -304,12 +303,42 @@ header {
 
 /* Mobile devices (360px – 480px) */
 @media (max-width: 480px) {
-  .banner-content {
+  .banner-content,
+  .donation-amount,
+  .donation-plan-content,
+  .contribute-content {
     flex-direction: column;
   }
-  .volunteer-img,
+  .banner-title {
+    /* max-width: 520px; */
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 18px;
+    margin-top: 60px;
+  }
+  .banner-description {
+    max-width: 300px;
+    margin-bottom: 18px;
+  }
+  .volunteer-img {
+    max-width: 300px;
+  }
   .volunteer {
-    width: 100%;
+    max-width: 170px;
+    margin-bottom: 260px;
+  }
+  .volunteer-container {
+    margin-top: -100px;
+  }
+  .btn-primary {
+    padding: 16px 8px;
+    background-color: #ff5959;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    cursor: pointer;
   }
 }
 
@@ -321,6 +350,9 @@ header {
 @media (max-width: 1024px) {
 }
 
-/* Small laptops */
-@media (max-width: 1366px) {
+/* Desktop View */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
